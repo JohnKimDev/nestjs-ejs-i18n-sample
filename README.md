@@ -18,7 +18,7 @@ It is good for building light HTML pages like an Email template or a PDF renderi
 For a complex frontend pages, you may also want to look into using a more full-fledged framework like Angular, React or Vue. That said, for simple projects, or if you need a simple templating engine with server side codes, 
 EJS will be a good option. 
 
-**Only EJS tags, you need to know**:
+**EJS tags**:
 - `<%=` – Escape the provided value, and output it to the template
 - `<%-` – Output the provided value without escaping. It is advised you escape all HTML variables before rendering to prevent cross-site scripting (XSS) attacks
 - `<%` – Perform control operations such as using a conditional or loop
@@ -67,9 +67,9 @@ Create `/public` for static assets and `/views` folder and create EJS page(s)
 |                  + lightbulb.png
 |
 + /views +
-      |
-      + simple.ejs
-      + some-page.ejs
+         |
+         + simple.ejs
+         + some-page.ejs
 ```
 
 
