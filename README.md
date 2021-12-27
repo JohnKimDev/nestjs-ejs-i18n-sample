@@ -1,17 +1,17 @@
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
-<h2 align="center">Model-View-Controller</h2>
-<h3 align="center">
+<h2 align="center">
+<p>Model-View-Controller</p>
 with EJS and i18N integration sample codes
-</h3>
+</h2>
 
-## Description
+### Description
 This is simple example of using NestJS with EJS template. For EJS documentation, check out EJS CLI documentation page, [https://ejs.co/#docs](https://ejs.co/#docs)
 
 NestJS official site has `Model-View-Controller` page with handlebar template ([link](https://docs.nestjs.com/techniques/mvc)), this codes is based on the same MVC sample code but using EJS instead.
 
-## What is EJS and Why use it
+### What is EJS and Why use it
 EJS stands for embedded Javascript and is used in templates building Node app. EJS is an easy to use and easy to understand, simple templating engine.
 It is good for building light HTML pages like an Email template or a PDF rendering page with NestJS. 
 
@@ -24,7 +24,7 @@ EJS will be a good option.
 - `<%` – Perform control operations such as using a conditional or loop
 
 
-## i18n internationalization 
+### i18n internationalization 
 This sample codes also include [i18n](https://www.npmjs.com/package/i18n) lightweight translation module.
 
 Usage in an EJS page
@@ -158,5 +158,5 @@ Format the JSON language file
 ```
 
 ### Final thought
-If you have any suggestions, or questions, 
+If you have any questions or suggestions, leave me your comment [here](https://github.com/JohnKimDev/nestjs-ejs-i18n-sample/labels/question).
 
