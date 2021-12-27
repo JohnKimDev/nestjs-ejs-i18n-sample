@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Master EJS Page</title>
+    <!-- Using EJS partials to render -->
+    <%- include('partials/style') %>
+</head>
+<body>
+<!-- Passing a string value from the controller (app.controller.ts) -->
+<%= message%>
+
+<!-- Static asset from the /public folder -->
+<p><img class="rotate" src="/images/lightbulb.png" /></p>
+
+<!-- i18n locale example -->
+<%= __('Hello') %>
+
+<!-- i18n locale with passing a value example -->
+<%= __('Hello %s, how are you today?', username) %>
+
+<!-- Passing a runtime string value from the controller (app.controller.ts) -->
+<h4>Today is <%=date %></h4>
+
+<h3>Look, I can count!</h3>
+<!-- Running NodeJS codes inside of EJS -->
+<% numbers.forEach((num) => { %>
+<%=num %><br />
+<% }) %>
+<br />
+
+<%# PRO TIP: this (EJS) comment will not render in HTML source code view. %>
+<!-- But this (HTML) comment will be render in HTML source code view. -->
+
+<a href="/">Go to EJS simple page</a>
+
+</body>
+</html>
