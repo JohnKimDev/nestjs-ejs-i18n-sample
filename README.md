@@ -51,7 +51,7 @@ yarn add ejs
 
 ### EJS Configurations
 The only configuration you need is `setViewEngin` in `main.ts`. 
-####/src/main.ts
+#### /src/main.ts
 ```typescript
 // ...
 app.setViewEngine('ejs');
@@ -75,7 +75,7 @@ Create `/public` for static assets and `/views` folder and create EJS page(s)
 
 
 NestJS official [page](https://docs.nestjs.com/techniques/mvc) has a well-documented page about using handlebar template. The EJS usage is exactly same after setting view engine. You can use it as reference.
-####/src/app.controller.ts
+#### /src/app.controller.ts
 ```typescript
 @Get('/master')
 @Render('simple')    // name of EJS file in /views folder ex) simple.ejs
@@ -87,7 +87,7 @@ ejs() {
 }
 ```
 
-####/src/views/simple.ejs
+#### /src/views/simple.ejs
 ```html
 <!DOCTYPE html>
 <html>
@@ -117,7 +117,7 @@ yarn add i18n
 
 ### i18n Configurations
 
-####/src/main.ts
+#### /src/main.ts
 
 ```typescript
 // ...
@@ -157,6 +157,6 @@ Format the JSON language file
 }
 ```
 
-### Final thought
+### Happy coding!
 If you have any questions or suggestions, leave me your comment [here](https://github.com/JohnKimDev/nestjs-ejs-i18n-sample/labels/question).
 
