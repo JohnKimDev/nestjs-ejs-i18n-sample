@@ -62,9 +62,9 @@ Create `/public` for static assets and `/views` folder and create EJS page(s)
 ```
 + /public +
 |         |
-|         + images +
-|                  |
-|                  + lightbulb.png
+|         + /images +
+|                   |
+|                   + lightbulb.png
 |
 + /views +
          |
